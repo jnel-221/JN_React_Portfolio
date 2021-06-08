@@ -10,7 +10,7 @@ function Contact(){
        <Navbar.Brand as={Link} to="/">Jennifer Nelson</Navbar.Brand>
        <Navbar.Toggle aria-controls="basic-navbar-nav" />
        <Navbar.Collapse id="basic-navbar-nav">
-         <Nav className="me-auto">
+         <Nav className="ms-auto">
            <Nav.Link as={Link} to="/portfolio">Portfolio</Nav.Link>
            <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
            <NavDropdown title="Dropdown" id="basic-nav-dropdown">
