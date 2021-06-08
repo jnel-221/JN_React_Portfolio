@@ -2,6 +2,7 @@ import React from "react";
 import {Navbar, Nav, Container, NavDropdown} from "react-bootstrap";
 import{Link} from "react-router-dom";
 import Footer from "../components/Footer";
+import "../css/Home.css"
 
 
 function Home(){
@@ -27,14 +28,13 @@ function Home(){
       </Navbar.Collapse>
     </Container>
   </Navbar>
-  
+  {/* about component */}
+  {/* skills icons component */}
+  {/* component which has clickable images to portfolio and contact pages */}
 
   {/* navbar as footer */}
   <Navbar fixed="bottom">
   <Footer/>
-  {/* <Nav.Link href="https://github.com/jnel-221">Github</Nav.Link>
-  <Nav.Link href="https://www.linkedin.com/in/jennifer-nelson-aa3a2ba7/">Linked-in</Nav.Link>
-  <span>&copy; Copyright 2020 JNelson</span> */}
   </Navbar>
    </>)
 }

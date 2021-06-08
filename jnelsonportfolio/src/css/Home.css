@@ -1,0 +1,7 @@
+body {
+    /* background-image: url(../images/markus-voetter-Axxllwv-vEM-unsplash.jpg); */
+    background-image: url(https://images.unsplash.com/photo-1516621117700-29967cdf4ef7?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80);
+    background-size: cover;
+    background-color: yellowgreen;
+    /* <span>Photo by <a href="https://unsplash.com/@markusvoetter?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Markus Voetter</a> on <a href="https://unsplash.com/s/photos/cinque-terre?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span> */
+  }
