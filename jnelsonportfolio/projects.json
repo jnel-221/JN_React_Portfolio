@@ -1,0 +1,62 @@
+[
+    {
+        "id": 0,
+        "pic":"./src/images/karaoke.png",
+        "alt": "Screenshot of kARaoke app",
+        "title": "kARaoke",
+        "description": "An augmented reality karaoke experience",
+        "technologies": "ML5.js, p5.js, Tensorflow.js, react-bootstrap, react-router-dom, react.js, express.js, node.js, mongoDB",
+        "repo": "https://github.com/jnel-221/kARaoke",
+        "live": "https://just-duet-karaoke.herokuapp.com/"
+    },
+    {
+        "id": 1,
+        "pic":"./src/images/parkPack.png",
+        "alt": "Screenshot of Park Pack app",
+        "title": "Park Pack",
+        "description": "A social media site for dog play-dates!",
+        "technologies": "project technologies",
+        "repo": "https://github.com/jnel-221/park-pack",
+        "live": "https://park-pack.herokuapp.com/"
+    },
+    {
+        "id": 2,
+        "pic":"./src/images/bookFlix.png",
+        "alt": "Screenshot of Bookflix app",
+        "title": "Bookflix",
+        "description": "Search for the books that influenced your favorite movies!",
+        "technologies": "project technologies",
+        "repo": "https://github.com/jnel-221/Seinfeld.oi",
+        "live": "https://omaurbliss.github.io/Seinfeld.oi/"
+    },
+    {
+        "id": 3,
+        "pic":"./src/images/reactDirectory.png",
+        "alt": "Screenshot of Employee Directory app",
+        "title": "project title",
+        "description": "React Employee Directory",
+        "technologies": "project technologies",
+        "repo": "https://github.com/jnel-221/React-Team-Directory",
+        "live": "https://jnel-221.github.io/React-Team-Directory/"
+    },
+    {
+        "id": 4,
+        "pic": "./src/images/paddlesUP.png",
+        "alt": "Screenshot of PaddlesUp Coder app",
+        "title": "Paddles-UP Coder",
+        "description": "A web-development and Dragonboating Blog",
+        "technologies": "node.js, sequelize, MySQL2, handlebars, bcrypt",
+        "repo": "https://github.com/jnel-221/PaddlesUpCoder",
+        "live": "https://paddlesup-coder.herokuapp.com/"
+    },
+    {
+        "id": 5,
+        "pic":"./src/images/weatherDashboard.png",
+        "alt": "Screenshot of Weather Dashboard app",
+        "title": "Weather Dashboard",
+        "description": "View the current weather and five-day forecast for any city in the world.",
+        "technologies": "jquery, html, css, OpenWeatherMap API, Moment.js API ",
+        "repo": "https://github.com/jnel-221/whatever-the-weather",
+        "live": "https://jnel-221.github.io/whatever-the-weather/"
+    }
+]
