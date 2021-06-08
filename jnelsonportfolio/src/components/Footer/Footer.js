@@ -1,4 +1,5 @@
 import React from "react";
+import "./style.css"
 
 function Footer() {
   return (
@@ -7,7 +8,7 @@ function Footer() {
         <div className="container">
           <span id="gitHub" className="m-1 p-3">
             <a href="https://github.com/jnel-221" className="social-icon">
-              <i className="fab fa-github"></i>
+              <i className="fab fa-github fa-2x"></i>
             </a>
           </span>
           |
@@ -16,10 +17,10 @@ function Footer() {
               href="https://www.linkedin.com/in/jennifer-nelson-aa3a2ba7/"
               className="social-icon"
             >
-              <i className="fab fa-linkedin-in"></i>
+              <i className="fab fa-linkedin-in fa-2x"></i>
             </a>
           </span>
-          <span>&copy; Copyright 2020 JNelson</span>
+          <span>&copy; Copyright 2021 JNelson</span>
         </div>
       </footer>
     </>
