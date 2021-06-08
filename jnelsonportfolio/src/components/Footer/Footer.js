@@ -1,9 +1,11 @@
 import React from "react";
+import {Navbar} from "react-bootstrap";
 import "./style.css"
 
 function Footer() {
   return (
     <>
+    <Navbar fixed="bottom" className="justify-content-center">
       <footer className="footer">
         <div className="container">
           <span id="gitHub" className="m-1 p-3">
@@ -23,6 +25,7 @@ function Footer() {
           <span>&copy; Copyright 2021 JNelson</span>
         </div>
       </footer>
+      </Navbar>
     </>
   );
 }

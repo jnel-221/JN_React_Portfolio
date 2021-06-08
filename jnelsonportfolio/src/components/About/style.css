@@ -16,7 +16,7 @@ main {
   }
   
   a:hover {
-    color: mediumvioletred;
+    color: mediumvioletred!important;
   }
   @media screen and (max-width: 768px) {
     .content {
