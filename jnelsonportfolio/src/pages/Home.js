@@ -11,7 +11,7 @@ function Home(){
        {/* Top Navbar */}
   <Navbar bg="light" expand="lg">
     <Container>
-      <Navbar.Brand as={Link} to="/">Jennifer Nelson</Navbar.Brand>
+      <Navbar.Brand as={Link} to="/" id="title">Jennifer Nelson</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ms-auto">
@@ -33,7 +33,7 @@ function Home(){
   {/* component which has clickable images to portfolio and contact pages */}
 
   {/* navbar as footer */}
-  <Navbar fixed="bottom">
+  <Navbar fixed="bottom" className="justify-content-center">
   <Footer/>
   </Navbar>
    </>)
