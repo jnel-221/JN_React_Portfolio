@@ -1,7 +1,7 @@
 import React from "react";
 import {Navbar, Nav, Container, NavDropdown} from "react-bootstrap";
 import{Link} from "react-router-dom";
-import About from "../components/About";
+import About from "../components/About/About";
 import Footer from "../components/Footer/Footer";
 import resume from "../images/jennifer_nelson_full_stack_resume.pdf";
 import "../css/Home.css"

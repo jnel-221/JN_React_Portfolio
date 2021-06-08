@@ -1,5 +1,6 @@
 import React from "react";
-import profilePic from "../images/jnelprofilepic.jpg";
+import profilePic from "../../images/jnelprofilepic.jpg";
+import "./style.css";
 
 function About (){
     return(

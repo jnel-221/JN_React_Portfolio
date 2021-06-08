@@ -1,0 +1,46 @@
+main {
+    flex: auto;
+  }
+  p {
+    font-family: "Open Sans", sans-serif;
+    color: rgba(5, 51, 121);
+  }
+  .content {
+    margin-top: 75px;
+    margin-bottom: 75px;
+  }
+  
+  #dragonBoat {
+    text-decoration: none;
+    color: rgba(5, 51, 121);
+  }
+  
+  a:hover {
+    color: mediumvioletred;
+  }
+  @media screen and (max-width: 768px) {
+    .content {
+      margin-top: 75px;
+      margin-bottom: 75px;
+      width: 85%;
+    }
+  
+    p {
+      font-size: 10px;
+    }
+  }
+  .window {
+    padding: 45px;
+    background-color: rgba(225, 225, 228, 0.836);
+  }
+  
+  #jnel {
+    float: left;
+    margin-right: 10px;
+  }
+  
+  @media screen and (max-width: 406px) {
+    #jnel {
+      width: 100%;
+    }
+  }
