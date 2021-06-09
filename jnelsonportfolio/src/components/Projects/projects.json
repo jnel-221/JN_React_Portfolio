@@ -1,7 +1,8 @@
+
 [
     {
         "id": 0,
-        "pic":"../images/kARaoke.png",
+        "pic":"../../public/portfolioimages/karaoke.png",
         "alt": "Screenshot of kARaoke app",
         "title": "kARaoke",
         "description": "An augmented reality karaoke experience",
@@ -33,7 +34,7 @@
         "id": 3,
         "pic":"../images/reactDirectory.png",
         "alt": "Screenshot of Employee Directory app",
-        "title": "project title",
+        "title": "Employee Directory",
         "description": "React Employee Directory",
         "technologies": "project technologies",
         "repo": "https://github.com/jnel-221/React-Team-Directory",

@@ -9,7 +9,7 @@ function About (){
         <article className="col-sm-12 col-md-8 col-lg-8 window">
           <h1 className="pageTitles">About Me</h1>
           <hr></hr>
-          <img src={profilePic} className="img-fluid rounded-circle" alt="photo of Jennifer Nelson" id="jnel"></img>
+          <img src={profilePic} className="img-fluid rounded-circle" alt="Jennifer Nelson" id="jnel"></img>
             <p>As a current full-stack web development student with a strong
               background in healthcare revenue cycle leadership, it's safe to say
               that I have a passion for designing systems that work well with

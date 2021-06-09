@@ -6,8 +6,6 @@ function Contact() {
   return (
     <>
       <Navheader />
-      <div>Hello Contact World!</div>
-      {/* create form component which will go in here */}
       <main className="container content">
         <section className="row">
             <div className="col-sm-12 col-md-8 col-lg-8 window">
@@ -33,7 +31,7 @@ function Contact() {
             </div>
         </section>
     </main>
-      <Footer />
+    <Footer />
     </>
   );
 }

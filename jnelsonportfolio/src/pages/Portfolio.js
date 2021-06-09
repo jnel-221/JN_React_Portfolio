@@ -1,14 +1,16 @@
 import React from "react";
 import Navheader from "../components/Nav";
+import Projects from "../components/Projects/Projects";
 import Footer from "../components/Footer/Footer";
-import "../utils/projects.json";
+
 
 function Portfolio() {
+  
   return (
     <>
       <Navheader />
       <div>Hello Portfolio World!</div>
-      {/* project contents generate here */}
+      <Projects/>
       <Footer />
     </>
   );
