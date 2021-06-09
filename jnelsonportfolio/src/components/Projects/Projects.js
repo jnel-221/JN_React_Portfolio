@@ -6,7 +6,7 @@ import projects from "./projects.json";
 function Projects () {
     
     return(
-        <Row xs={1} md={2} className="g-4">
+        <Row xs={1} md={2} className="g-4 mx-3">
         {projects.map( project => (
           <Col key={project.id} >
             <Card id={project.id}>
