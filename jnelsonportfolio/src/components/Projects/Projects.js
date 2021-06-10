@@ -1,16 +1,18 @@
 import React from "react";
 import {Row, Col, Card} from "react-bootstrap";
 import projects from "./projects.json";
+import karaoke from "../../images/karaoke.png";
 
 
 function Projects () {
-    
+    console.log("what's in karaoke?", karaoke)
+    console.log("what's in json? ", projects)
     return(
-        <Row xs={1} md={2} className="g-4 mx-3">
+        <Row xs={1} md={2} lg={3} className="g-4 mx-5">
         {projects.map( project => (
           <Col key={project.id} >
             <Card id={project.id}>
-              <Card.Img variant="top" src="../images/karaoke.png" alt={project.alt} />
+              <Card.Img variant="top" src={project.image} alt={project.alt} />
               <Card.Body>
                 <Card.Title>{project.title}</Card.Title>
                 <Card.Text>

@@ -2,7 +2,7 @@
 [
     {
         "id": 0,
-        "pic":"../../public/portfolioimages/karaoke.png",
+        "image":"/images/karaoke.png",
         "alt": "Screenshot of kARaoke app",
         "title": "kARaoke",
         "description": "An augmented reality karaoke experience",
@@ -12,7 +12,7 @@
     },
     {
         "id": 1,
-        "pic":"../images/parkPack.png",
+        "image":"/images/parkPack.png",
         "alt": "Screenshot of Park Pack app",
         "title": "Park Pack",
         "description": "A social media site for dog play-dates!",
@@ -22,7 +22,7 @@
     },
     {
         "id": 2,
-        "pic":"../images/bookFlix.png",
+        "image":"/images/bookFlix.png",
         "alt": "Screenshot of Bookflix app",
         "title": "Bookflix",
         "description": "Search for the books that influenced your favorite movies!",
@@ -32,7 +32,7 @@
     },
     {
         "id": 3,
-        "pic":"../images/reactDirectory.png",
+        "image":"/images/reactDirectory.png",
         "alt": "Screenshot of Employee Directory app",
         "title": "Employee Directory",
         "description": "React Employee Directory",
@@ -42,7 +42,7 @@
     },
     {
         "id": 4,
-        "pic": "../images/paddlesUP.png",
+        "image": "/images/paddlesUP.png",
         "alt": "Screenshot of PaddlesUp Coder app",
         "title": "Paddles-UP Coder",
         "description": "A web-development and Dragonboating Blog",
@@ -52,7 +52,7 @@
     },
     {
         "id": 5,
-        "pic":"../images/weatherDashboard.png",
+        "image":"/images/weatherDashboard.png",
         "alt": "Screenshot of Weather Dashboard app",
         "title": "Weather Dashboard",
         "description": "View the current weather and five-day forecast for any city in the world.",
