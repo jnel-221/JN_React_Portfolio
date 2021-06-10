@@ -1,0 +1,15 @@
+.btn-style{
+    background-color: #053379;
+    color:yellowgreen;
+    font-family: "Open Sans", sans-serif;
+}
+
+.btn-style:hover{
+    background-color: yellowgreen!important;
+    color: #053379;
+} 
+
+.list{
+    color: #053379;
+    font-family: "Open Sans", sans-serif;
+}   
