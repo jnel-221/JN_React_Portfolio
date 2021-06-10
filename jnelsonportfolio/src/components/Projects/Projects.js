@@ -8,7 +8,7 @@ function Projects () {
     console.log("what's in karaoke?", karaoke)
     console.log("what's in json? ", projects)
     return(
-        <Row xs={1} md={2} lg={3} className="g-4 mx-5">
+        <Row xs={1} md={2} lg={3} className="g-4">
         {projects.map( project => (
           <Col key={project.id} >
             <Card id={project.id}>
