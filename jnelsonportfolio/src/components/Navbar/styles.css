@@ -1,0 +1,16 @@
+  /* Navbar stylings */
+  .navbar-brand{
+    background-color: rgba(5, 51, 121);
+    font-size: 30px;
+    padding: 15px;
+    color: yellowgreen!important;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 100;
+    transition: 0.3s;
+  }
+  
+  .navbar-brand:hover {
+    color: mediumvioletred!important;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+  }
