@@ -8,7 +8,7 @@ import "./style.css"
 
 function Projects () {
 
-    // set state of modal for project data
+    // set state of project-data-object for modal
     const [activeProject, setProject] = useState({});
 
     //set state of visibility for modal;
@@ -22,10 +22,9 @@ function Projects () {
         setProject(selectedProject);
         setModalShow(true);
         
-      };
-      console.log("state: ", activeProject)
-    
-    console.log("what's in json? ", projects)
+    };
+     
+
     return(
         <>
         <MyModal show={modalShow} onHide={()=> setModalShow(false)} project={activeProject}/>
@@ -38,7 +37,6 @@ function Projects () {
                 <Card.Title id={project.id} onClick={handleClick}>{project.title}</Card.Title>
                 <Card.Text>
                  {project.description}
-                 {/* {project.technologies} */}
                 </Card.Text>
                 <MyButton site={project.live} repo={project.repo}  title={project.title}></MyButton>
               </Card.Body>
