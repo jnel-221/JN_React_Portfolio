@@ -21,16 +21,17 @@ function MyModal(props) {
         </Modal.Header>
         <Modal.Body className="card-background">
           <img src={props.project.image} alt={props.project.alt} className="img-fluid"></img>
-          {/* <h4 className="modal-text">{props.project.title}</h4> */}
           <p className="modal-text mt-3">
-            Cras mattis consectetur purus sit amet fermentum. Cras justo odio,
-            dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac
-            consectetur ac, vestibulum at eros.
+            {props.project.description}
           </p>
           <p>Technologies: </p>
+          { props.project.tech? 
+          (props.project.tech.map(item =>(
           <ul>
-
+            <li>{item}</li>
           </ul>
+          ))) : console.log("need tech here!")
+          }
         </Modal.Body>
         <Modal.Footer className="card-background">
           <Button variant="style" onClick={props.onHide}>Close</Button>

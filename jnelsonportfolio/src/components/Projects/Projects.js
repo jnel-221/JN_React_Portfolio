@@ -36,7 +36,7 @@ function Projects () {
               <Card.Body>
                 <Card.Title id={project.id} onClick={handleClick}>{project.title}</Card.Title>
                 <Card.Text>
-                 {project.description}
+                 {project.teaser}
                 </Card.Text>
                 <MyButton site={project.live} repo={project.repo}  title={project.title}></MyButton>
               </Card.Body>
