@@ -3,7 +3,7 @@ import {Dropdown, DropdownButton} from "react-bootstrap";
 import "./style.css"
 
 
-function Button({site, repo, title}){
+function MyButton({site, repo, title}){
     return(
         <>
         <DropdownButton variant="style" id="dropdown-basic-button" className="text-center" title="Tour the Site">
@@ -14,4 +14,4 @@ function Button({site, repo, title}){
     )
 }
 
-export default Button;
+export default MyButton;

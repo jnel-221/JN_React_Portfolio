@@ -1,31 +1,52 @@
-import React from "react";
+import React, {useState}from "react";
 import {Row, Col, Card} from "react-bootstrap";
 import projects from "./projects.json";
-import Button from "../Cardbutton/Button";
+import MyButton from "../Cardbutton/Button";
+import MyModal from "../Modal/Modal";
 import "./style.css"
 
 
 function Projects () {
+
+    // set state of modal for project data
+    const [activeProject, setProject] = useState({});
+
+    //set state of visibility for modal;
+    const [modalShow, setModalShow] = React.useState(false);
+
+    function handleClick(event) {
+        event.preventDefault();
+        const projectID = parseInt(event.target.id);
+        const selectedProject = projects.find(project => project.id === projectID)
+    
+        setProject(selectedProject);
+        setModalShow(true);
+        
+      };
+      console.log("state: ", activeProject)
     
     console.log("what's in json? ", projects)
     return(
+        <>
+        <MyModal show={modalShow} onHide={()=> setModalShow(false)} project={activeProject}/>
         <Row xs={1} md={2} lg={3} className="g-4">
         {projects.map( project => (
           <Col key={project.id} >
-            <Card id={project.id} className="card-style">
+            <Card className="card-style">
               <Card.Img variant="top" src={project.image} alt={project.alt} className="image-border"/>
               <Card.Body>
-                <Card.Title>{project.title}</Card.Title>
+                <Card.Title id={project.id} onClick={handleClick}>{project.title}</Card.Title>
                 <Card.Text>
                  {project.description}
                  {/* {project.technologies} */}
                 </Card.Text>
-                <Button site={project.live} repo={project.repo}  title={project.title}></Button>
+                <MyButton site={project.live} repo={project.repo}  title={project.title}></MyButton>
               </Card.Body>
             </Card>
           </Col>
         ))}
       </Row>
+      </>
       
     )
 }
