@@ -39,7 +39,7 @@
         "alt": "Screenshot of Employee Directory app",
         "title": "Employee Directory",
         "teaser": "Search and sort React directory",
-        "description":"Search for employees by name.  Sort by name, phone, email, or date of birth.",
+        "description":"A staff directory with a dynamic React front-end. Search for employees by name.  Sort by name, phone, email, or date of birth.",
         "tech": ["React.js", "Bootstrap", "Axios", "Randomuser API"],
         "repo": "https://github.com/jnel-221/React-Team-Directory",
         "live": "https://jnel-221.github.io/React-Team-Directory/"

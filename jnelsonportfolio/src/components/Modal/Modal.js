@@ -4,7 +4,7 @@ import MyButton from "../Cardbutton/Button";
 import "./style.css"
 
 function MyModal(props) {
-    console.log("in modal what props came from projects: ", props.project);
+    // console.log("in modal what props came from projects: ", props.project);
     
     return (
       <Modal
@@ -13,6 +13,7 @@ function MyModal(props) {
         aria-labelledby="contained-modal-title-vcenter"
         centered
         className="modal-background"
+        key={props.project.id}
       >
         <Modal.Header variant="close" closeButton className="card-background">
           <Modal.Title id="contained-modal-title-vcenter">
@@ -30,7 +31,7 @@ function MyModal(props) {
           <ul>
             <li>{item}</li>
           </ul>
-          ))) : console.log("need tech here!")
+          ))) : console.log("no project selected")
           }
         </Modal.Body>
         <Modal.Footer className="card-background">

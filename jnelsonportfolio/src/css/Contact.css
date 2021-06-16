@@ -9,8 +9,7 @@
     color: #053379;
 } 
 
-.list{
-    color: #053379;
-    font-family: "Open Sans", sans-serif;
-}
-
+.form-label {
+    font-family: "Open Sans", sans-serif!important;
+    color: rgba(5, 51, 121);
+  }

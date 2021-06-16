@@ -12,39 +12,39 @@ function Contact() {
             <h1>Contact</h1>
             <hr></hr>
             <div className="mb-3">
-              <label for="exampleFormControlInput1" className="form-label">
+              <label className="form-label">
                 Name
               </label>
               <input
                 type="text"
                 className="form-control"
-                id="exampleFormControlInput1"
+                id="name"
                 placeholder="Name"
               ></input>
             </div>
             <div className="mb-3">
-              <label for="exampleFormControlInput1" className="form-label">
+              <label className="form-label">
                 Email address
               </label>
               <input
                 type="email"
                 className="form-control"
-                id="exampleFormControlInput1"
+                id="email"
                 placeholder="Email"
               ></input>
             </div>
             <div className="mb-3">
-              <label for="exampleFormControlTextarea1" className="form-label">
+              <label className="form-label">
                 Message
               </label>
               <textarea
                 className="form-control"
-                id="exampleFormControlTextarea1"
+                id="message"
                 placeholder="Message"
                 rows="3"
               ></textarea>
             </div>
-            <button type="button" className="btn  btn-lg rounded-0">
+            <button type="button" className="btn  btn-lg btn-style rounded-0">
               Submit
             </button>
             <hr></hr>

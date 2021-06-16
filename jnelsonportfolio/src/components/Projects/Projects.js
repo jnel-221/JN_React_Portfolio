@@ -24,17 +24,18 @@ function Projects () {
         
     };
      
-
+    console.log("activeProject.id is: ", activeProject.id);
     return(
+      
         <>
-        <MyModal show={modalShow} onHide={()=> setModalShow(false)} project={activeProject}/>
+        <MyModal key={activeProject.id} show={modalShow} onHide={()=> setModalShow(false)} project={activeProject}/>
         <Row xs={1} md={2} lg={3} className="g-4">
         {projects.map( project => (
           <Col key={project.id} >
             <Card className="card-style">
               <Card.Img variant="top" src={project.image} alt={project.alt} className="image-border"/>
               <Card.Body>
-                <Card.Title id={project.id} onClick={handleClick}>{project.title}</Card.Title>
+                <Card.Title id={project.id} onClick={handleClick} className="card-title mb-3">{project.title}</Card.Title>
                 <Card.Text>
                  {project.teaser}
                 </Card.Text>
