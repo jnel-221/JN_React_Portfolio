@@ -1,7 +1,7 @@
 import React from "react";
 import {Navbar, Nav, Container} from "react-bootstrap";
 import{Link} from "react-router-dom";
-import resume from "../../images/jennifer_nelson_full_stack_resume.pdf";
+import resume from "../../assets/images/jennifer_nelson_full_stack_resume.pdf";
 import "./styles.css";
 
 function Navheader (){
