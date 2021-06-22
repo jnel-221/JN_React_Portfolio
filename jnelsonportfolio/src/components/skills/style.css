@@ -1,5 +1,9 @@
 .skills{
-   color:yellowgreen
+   color:yellowgreen;
+   background-color:rgba(5, 51, 121, 0.541);
+   /* margin: 0px 50px; */
+   padding: 0px 50px;
+  
     
 }
 

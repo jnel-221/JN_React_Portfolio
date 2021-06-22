@@ -1,6 +1,8 @@
 import React from "react";
 import profilePic from "../../assets/images/jnelprofilepic.jpg";
+import {Link} from "react-router-dom";
 import "./style.css";
+import { Nav } from "react-bootstrap";
 
 function About (){
     return(
@@ -10,14 +12,8 @@ function About (){
           <h1 className="pageTitles">About Me</h1>
           <hr></hr>
           <img src={profilePic} className="img-fluid rounded-circle" alt="Jennifer Nelson" id="jnel"></img>
-            <p>As a full-stack software developer with a strong
-              background in healthcare revenue cycle leadership, it's safe to say
-              that I have a passion for designing applications that work well with
-              people. I hope to use my new skills to create dynamic, user-friendly, and efficient
-              applications in either the health care or education fields.</p>
-            <p>I live in Minnesota with my spouse, daughter, and puppy. When not at my code editor, I enjoy hiking,
-              skiing, <a id="dragonBoat"href="https://www.hornetwatersports.com/blogs/news/beginners-guide-to-dragon-boat-racing">dragonboat racing</a>, and learning new coding languages.</p>
-             
+            <p>Hi, I'm Jennifer.</p> <p>I'm a full stack developer who loves creative problem solving and collaborating on dynamic and impactful projects.</p>
+         <Nav.Link as={Link} to="/resume">View my resume</Nav.Link>
         </article>
       </div>
     </main>
