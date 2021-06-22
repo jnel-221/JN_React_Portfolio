@@ -13,7 +13,7 @@ function About (){
           <hr></hr>
           <img src={profilePic} className="img-fluid rounded-circle" alt="Jennifer Nelson" id="jnel"></img>
             <p>Hi, I'm Jennifer.</p> <p>I'm a full stack developer who loves creative problem solving and collaborating on dynamic and impactful projects.</p>
-         <Nav.Link as={Link} to="/resume">View my resume</Nav.Link>
+         <Nav.Link as={Link} to="/resume">View resume</Nav.Link>
         </article>
       </div>
     </main>

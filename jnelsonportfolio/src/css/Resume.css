@@ -1,0 +1,15 @@
+.react-pdf_Page {
+    margin: 0 auto;
+}
+
+.btn-style{
+    background-color: #053379;
+    color:yellowgreen;
+    font-family: "Open Sans", sans-serif;
+    font-size: 25px;
+}
+
+.btn-style:hover{
+    background-color: yellowgreen!important;
+    color: #053379;
+} 

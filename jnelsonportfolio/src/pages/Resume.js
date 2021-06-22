@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
 import { Document, Page } from 'react-pdf/dist/umd/entry.webpack';
 import resume from "../assets/images/jennifer_nelson_full_stack_resume.pdf";
+import Navheader from "../components/Navbar/Nav";
+import Footer from "../components/Footer/Footer";
+import "../css/Resume.css";
 
 function Resume() {
   const [numPages, setNumPages] = useState(null);
@@ -25,31 +28,38 @@ function Resume() {
 
   return (
     <>
+    <Navheader/>
       <Document
         file={resume}
         onLoadSuccess={onDocumentLoadSuccess}
+        className="mt-5 window container"
       >
-        <Page pageNumber={pageNumber} />
-      </Document>
-      <div>
-      <p>
+      <h1 className="pageTitles">Resume</h1>
+          <hr></hr>
+        <Page pageNumber={pageNumber}/>
+        <p>
           Page {pageNumber || (numPages ? 1 : '--')} of {numPages || '--'}
         </p>
         <button
           type="button"
           disabled={pageNumber <= 1}
           onClick={previousPage}
+          className="mb-5 btn btn-style rounded-0"
         >
-          Previous
+          ‹
         </button>
         <button
           type="button"
           disabled={pageNumber >= numPages}
           onClick={nextPage}
+          className="mb-5 btn btn-style rounded-0"
         >
-          Next
+          ›
         </button>
-      </div>
+      
+   
+      </Document>
+      <Footer/>
     </>
   );
 }
