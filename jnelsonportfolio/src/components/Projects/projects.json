@@ -2,7 +2,7 @@
 [
     {
         "id": 0,
-        "image":"https://raw.githubusercontent.com/jnel-221/JN_React_Portfolio/jnelsonportfolio/src/assets/images/karaoke.png",
+        "image":"/images/karaoke.png",
         "alt": "Screenshot of kARaoke app",
         "title": "Karaoke",
         "teaser": "Augmented reality karaoke room",
@@ -39,7 +39,7 @@
         "alt": "Screenshot of Employee Directory app",
         "title": "Employee Directory",
         "teaser": "Search and sort React directory",
-        "description":"A staff directory with a dynamic React front-end. Search for employees by name.  Sort by name, phone, email, or date of birth.",
+        "description":"A staff directory with a dynamic React front-end.Search for employees by name.  Sort by name, phone, email, or date of birth.",
         "tech": ["React.js", "Bootstrap", "Axios", "Randomuser API"],
         "repo": "https://github.com/jnel-221/React-Team-Directory",
         "live": "https://jnel-221.github.io/React-Team-Directory/"
