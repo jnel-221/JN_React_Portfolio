@@ -2,7 +2,7 @@
 [
     {
         "id": 0,
-        "image":"/images/karaoke.png",
+        "image":"https://user-images.githubusercontent.com/jnel-221/JN_React_Portfolio/jnelsonportfolio/src/assets/images/karaoke.png",
         "alt": "Screenshot of kARaoke app",
         "title": "Karaoke",
         "teaser": "Augmented reality karaoke room",
