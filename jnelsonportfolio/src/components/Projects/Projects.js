@@ -35,7 +35,7 @@ function Projects () {
             <Card className="card-style">
               <Card.Img variant="top" src={project.image} alt={project.alt} className="image-border"/>
               <Card.Body>
-                <Card.Title id={project.id} onClick={handleClick} className="card-title mb-3">{project.title}</Card.Title>
+                <Card.Title id={project.id} onClick={handleClick} className="project-title mb-3">{project.title}</Card.Title>
                 <Card.Text>
                  {project.teaser}
                 </Card.Text>

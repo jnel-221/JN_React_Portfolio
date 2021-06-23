@@ -2,7 +2,7 @@
     border-radius: 10px 10px 0px 0px;
 }
 
-.card-title{
+.project-title{
     font-family: "Open Sans", sans-serif;
     color: #053379;
     text-align: center;
@@ -10,7 +10,7 @@
     
 }
 
-.card-title:hover{
+.project-title:hover{
     color: mediumvioletred;
 }
 

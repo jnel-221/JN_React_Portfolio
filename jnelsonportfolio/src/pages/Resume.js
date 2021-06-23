@@ -44,7 +44,7 @@ function Resume() {
           type="button"
           disabled={pageNumber <= 1}
           onClick={previousPage}
-          className="mb-5 btn btn-style rounded-0"
+          className="mb-5 btn btn-style-resume rounded-0"
         >
           ‹
         </button>
@@ -52,7 +52,7 @@ function Resume() {
           type="button"
           disabled={pageNumber >= numPages}
           onClick={nextPage}
-          className="mb-5 btn btn-style rounded-0"
+          className="mb-5 btn btn-style-resume rounded-0"
         >
           ›
         </button>

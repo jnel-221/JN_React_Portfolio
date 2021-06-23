@@ -3,6 +3,7 @@
   } */
   p {
     font-family: "Open Sans", sans-serif;
+    font-size: 18px;
     color: rgba(5, 51, 121);
   }
   .content {
@@ -10,11 +11,11 @@
     margin-bottom: 75px;
   }
   
-  #dragonBoat {
-    text-decoration: none;
-    color: rgba(5, 51, 121);
-  }
+ .about-padding{
+   padding: 50px 0px
+ }
   
+ 
   a:hover {
     color: mediumvioletred!important;
   }
