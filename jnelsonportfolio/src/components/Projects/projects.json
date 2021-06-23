@@ -13,7 +13,7 @@
     },
     {
         "id": 1,
-        "image":"/images/parkPack.png",
+        "image":"https://raw.githubusercontent.com/jnel-221/JN_React_Portfolio/main/jnelsonportfolio/src/assets/images/parkPack.png",
         "alt": "Screenshot of Park Pack app",
         "title": "Park Pack",
         "teaser": "Social Media for Doggies",
