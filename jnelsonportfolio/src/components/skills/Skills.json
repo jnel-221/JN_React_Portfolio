@@ -1,42 +1,42 @@
 [
     {
-        "icon":"/images/icons/html.png",
+        "icon":"https://raw.githubusercontent.com/jnel-221/JN_React_Portfolio/main/jnelsonportfolio/src/assets/images/icons/html.png",
         "alt":"html icon"
     },
     {
-        "icon":"/images/icons/css.png",
+        "icon":"https://raw.githubusercontent.com/jnel-221/JN_React_Portfolio/main/jnelsonportfolio/src/assets/images/icons/css.png",
         "alt":"css icon"
     },
     {
-        "icon":"/images/icons/react.png",
+        "icon":"https://raw.githubusercontent.com/jnel-221/JN_React_Portfolio/main/jnelsonportfolio/src/assets/images/icons/react.png",
         "alt":"react icon"
     },
     {
-        "icon":"/images/icons/mongodb.png",
+        "icon":"https://raw.githubusercontent.com/jnel-221/JN_React_Portfolio/main/jnelsonportfolio/src/assets/images/icons/mongodb.png",
         "alt":"mongodb icon"
     },
     {
-        "icon":"/images/icons/nodejs.png",
+        "icon":"https://raw.githubusercontent.com/jnel-221/JN_React_Portfolio/main/jnelsonportfolio/src/assets/images/icons/nodejs.png",
         "alt":"nodejs icon"
     },
     {
-        "icon":"/images/icons/javascript.png",
+        "icon":"https://raw.githubusercontent.com/jnel-221/JN_React_Portfolio/main/jnelsonportfolio/src/assets/images/icons/javascript.png",
         "alt":"javascript icon"
     },
     {
-        "icon":"/images/icons/jquery.png",
+        "icon":"https://raw.githubusercontent.com/jnel-221/JN_React_Portfolio/main/jnelsonportfolio/src/assets/images/icons/jquery.png",
         "alt":"jquery icon"
     },
     {
-        "icon":"/images/icons/mysql.png",
+        "icon":"https://raw.githubusercontent.com/jnel-221/JN_React_Portfolio/main/jnelsonportfolio/src/assets/images/icons/mysql.png",
         "alt":"mysql icon"
     },
     {
-        "icon":"/images/icons/bootstrap.png",
+        "icon":"https://raw.githubusercontent.com/jnel-221/JN_React_Portfolio/main/jnelsonportfolio/src/assets/images/icons/bootstrap.png",
         "alt":"bootstrap icon"
     },
     {
-        "icon":"/images/icons/git.png",
+        "icon":"https://raw.githubusercontent.com/jnel-221/JN_React_Portfolio/main/jnelsonportfolio/src/assets/images/icons/git.png",
         "alt":"git icon"
     }
 ]

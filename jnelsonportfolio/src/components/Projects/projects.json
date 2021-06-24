@@ -24,7 +24,7 @@
     },
     {
         "id": 2,
-        "image":"/images/bookFlix.png",
+        "image":"https://raw.githubusercontent.com/jnel-221/JN_React_Portfolio/main/jnelsonportfolio/src/assets/images/bookFlix.png",
         "alt": "Screenshot of Bookflix app",
         "title": "Bookflix",
         "teaser": "Loved the movie? Find the book!",
@@ -35,7 +35,7 @@
     },
     {
         "id": 3,
-        "image":"/images/reactDirectory.png",
+        "image":"https://raw.githubusercontent.com/jnel-221/JN_React_Portfolio/main/jnelsonportfolio/src/assets/images/reactDirectory.png",
         "alt": "Screenshot of Employee Directory app",
         "title": "Employee Directory",
         "teaser": "Search and sort React directory",
@@ -46,7 +46,7 @@
     },
     {
         "id": 4,
-        "image": "/images/paddlesUP.png",
+        "image": "https://raw.githubusercontent.com/jnel-221/JN_React_Portfolio/main/jnelsonportfolio/src/assets/images/paddlesUP.png",
         "alt": "Screenshot of PaddlesUp Coder app",
         "title": "Paddles-UP Coder",
         "teaser": "Web-dev and Dragonboating Blog",
@@ -57,7 +57,7 @@
     },
     {
         "id": 5,
-        "image":"/images/weatherDashboard.png",
+        "image":"https://raw.githubusercontent.com/jnel-221/JN_React_Portfolio/main/jnelsonportfolio/src/assets/images/weatherDashboard.png",
         "alt": "Screenshot of Weather Dashboard app",
         "title": "Weather Dashboard",
         "teaser": "Current weather and forecast app",
