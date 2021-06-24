@@ -18,9 +18,6 @@ function Contact() {
             <p><i className="fas fa-envelope mx-3"></i>jennifer.nelson242@gmail.com</p> 
             <p><i className="fas fa-phone-alt mx-3"></i>503-522-6905</p>
             </div>
-            
-            
-          
           </div>
         </section> 
       </main> 
