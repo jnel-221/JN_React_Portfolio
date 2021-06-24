@@ -12,7 +12,7 @@ function Projects () {
     const [activeProject, setProject] = useState({});
 
     //set state of visibility for modal;
-    const [modalShow, setModalShow] = React.useState(false);
+    const [modalShow, setModalShow] = useState(false);
 
     function handleClick(event) {
         event.preventDefault();
@@ -24,7 +24,6 @@ function Projects () {
         
     };
      
-    console.log("activeProject.id is: ", activeProject.id);
     return(
       
         <>
