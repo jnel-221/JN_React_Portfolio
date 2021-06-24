@@ -14,6 +14,10 @@ function Resume() {
     setPageNumber(1);
   }
 
+  function onDocumentLoadError(error){
+    console.log("error while loading document! ", error.message)
+  }
+
   function changePage(offset) {
       setPageNumber(prevPageNumber=> prevPageNumber + offset);
   };
@@ -32,6 +36,7 @@ function Resume() {
       <Document
         file={resume}
         onLoadSuccess={onDocumentLoadSuccess}
+        onLoadError={onDocumentLoadError}
         className="mt-5 window container"
       >
       <h1 className="pageTitles">Resume</h1>

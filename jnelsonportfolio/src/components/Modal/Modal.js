@@ -31,7 +31,7 @@ function MyModal(props) {
           <ul>
             <li>{item}</li>
           </ul>
-          ))) : console.log("no project selected")
+          ))) : console.log("select project to view modal")
           }
         </Modal.Body>
         <Modal.Footer className="card-background">
