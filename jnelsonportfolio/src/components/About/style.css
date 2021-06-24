@@ -15,6 +15,11 @@
    padding: 50px 0px
  }
   
+ a {
+  font-family: "Open Sans", sans-serif;
+  color: rgba(5, 51, 121);
+  text-decoration: none;
+ }
  
   a:hover {
     color: mediumvioletred!important;
