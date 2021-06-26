@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/JN_React_Portfolio/static/css/main.49d75041.chunk.css",
-    "main.js": "/JN_React_Portfolio/static/js/main.5a548edc.chunk.js",
-    "main.js.map": "/JN_React_Portfolio/static/js/main.5a548edc.chunk.js.map",
+    "main.js": "/JN_React_Portfolio/static/js/main.2b8db39f.chunk.js",
+    "main.js.map": "/JN_React_Portfolio/static/js/main.2b8db39f.chunk.js.map",
     "runtime-main.js": "/JN_React_Portfolio/static/js/runtime-main.571f2a46.js",
     "runtime-main.js.map": "/JN_React_Portfolio/static/js/runtime-main.571f2a46.js.map",
     "static/css/2.61b4cb56.chunk.css": "/JN_React_Portfolio/static/css/2.61b4cb56.chunk.css",
-    "static/js/2.8803aced.chunk.js": "/JN_React_Portfolio/static/js/2.8803aced.chunk.js",
-    "static/js/2.8803aced.chunk.js.map": "/JN_React_Portfolio/static/js/2.8803aced.chunk.js.map",
+    "static/js/2.1ae3294f.chunk.js": "/JN_React_Portfolio/static/js/2.1ae3294f.chunk.js",
+    "static/js/2.1ae3294f.chunk.js.map": "/JN_React_Portfolio/static/js/2.1ae3294f.chunk.js.map",
     "pdf.worker.js": "/JN_React_Portfolio/0bb7cdcc5ffadb1376577792e21730ab.js",
     "0bb7cdcc5ffadb1376577792e21730ab.js.LICENSE.txt": "/JN_React_Portfolio/0bb7cdcc5ffadb1376577792e21730ab.js.LICENSE.txt",
     "index.html": "/JN_React_Portfolio/index.html",
     "static/css/2.61b4cb56.chunk.css.map": "/JN_React_Portfolio/static/css/2.61b4cb56.chunk.css.map",
     "static/css/main.49d75041.chunk.css.map": "/JN_React_Portfolio/static/css/main.49d75041.chunk.css.map",
-    "static/js/2.8803aced.chunk.js.LICENSE.txt": "/JN_React_Portfolio/static/js/2.8803aced.chunk.js.LICENSE.txt",
+    "static/js/2.1ae3294f.chunk.js.LICENSE.txt": "/JN_React_Portfolio/static/js/2.1ae3294f.chunk.js.LICENSE.txt",
     "static/media/jennifer_nelson_full_stack_resume.c746b6f4.pdf": "/JN_React_Portfolio/static/media/jennifer_nelson_full_stack_resume.c746b6f4.pdf",
     "static/media/jnelprofilepic.8cbee452.jpg": "/JN_React_Portfolio/static/media/jnelprofilepic.8cbee452.jpg",
     "static/media/Portfolio.css": "/JN_React_Portfolio/static/media/portBackgrnd.8cdca85e.jpeg"
@@ -21,8 +21,8 @@
   "entrypoints": [
     "static/js/runtime-main.571f2a46.js",
     "static/css/2.61b4cb56.chunk.css",
-    "static/js/2.8803aced.chunk.js",
+    "static/js/2.1ae3294f.chunk.js",
     "static/css/main.49d75041.chunk.css",
-    "static/js/main.5a548edc.chunk.js"
+    "static/js/main.2b8db39f.chunk.js"
   ]
 }
