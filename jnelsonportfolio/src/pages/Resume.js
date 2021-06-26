@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
-import { Document, Page, pdfjs } from 'react-pdf/dist/umd/entry.webpack';
+import { Document, Page} from 'react-pdf/dist/umd/entry.webpack';
 import resume from "../assets/images/jennifer_nelson_full_stack_resume.pdf";
 import Navheader from "../components/Navbar/Nav";
 import Footer from "../components/Footer/Footer";
 import "../css/Resume.css";
 
 
-pdfjs.GlobalWorkerOptions.workerSrc="pdf.worker.js";
+// pdfjs.GlobalWorkerOptions.workerSrc="pdf.worker.js";
 
 function Resume() {
   const [numPages, setNumPages] = useState(null);
