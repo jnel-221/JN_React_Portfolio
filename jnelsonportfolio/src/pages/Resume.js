@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Document, Page, pdfjs} from 'react-pdf/dist/umd/entry.webpack';
-import resume from "../assets/images/jennifer_nelson_full_stack_resume.pdf";
+import resume from "../assets/images/jnelson_resume.pdf";
 import Navheader from "../components/Navbar/Nav";
 import Footer from "../components/Footer/Footer";
 import "../css/Resume.css";

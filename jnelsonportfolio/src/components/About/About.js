@@ -18,7 +18,7 @@ function About (){
           <h1 className="pageTitles">About Me</h1>
           <hr></hr>
           <img src={profilePic} className="img-fluid rounded-circle" alt="Jennifer Nelson" id="jnel"></img>
-            <p>Hi, I'm Jennifer.</p> <p>I'm a full stack developer based in Minneapolis.  I love creative problem solving and collaborating on dynamic and impactful projects.</p>
+            <p>Hi, I'm Jennifer.</p> <p>I'm a full stack developer with a passion for creating systems that work well with people!</p>
          <Nav.Link as={Link} to="/resume" style={linkstyle}>View resume</Nav.Link>
         </article>
       </div>
