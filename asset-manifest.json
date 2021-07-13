@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/JN_React_Portfolio/static/css/main.49d75041.chunk.css",
-    "main.js": "/JN_React_Portfolio/static/js/main.40d6ec0f.chunk.js",
-    "main.js.map": "/JN_React_Portfolio/static/js/main.40d6ec0f.chunk.js.map",
+    "main.js": "/JN_React_Portfolio/static/js/main.daeabc11.chunk.js",
+    "main.js.map": "/JN_React_Portfolio/static/js/main.daeabc11.chunk.js.map",
     "runtime-main.js": "/JN_React_Portfolio/static/js/runtime-main.571f2a46.js",
     "runtime-main.js.map": "/JN_React_Portfolio/static/js/runtime-main.571f2a46.js.map",
     "static/css/2.61b4cb56.chunk.css": "/JN_React_Portfolio/static/css/2.61b4cb56.chunk.css",
@@ -16,6 +16,7 @@
     "static/js/2.8803aced.chunk.js.LICENSE.txt": "/JN_React_Portfolio/static/js/2.8803aced.chunk.js.LICENSE.txt",
     "static/media/jennifer_nelson_full_stack_resume.c746b6f4.pdf": "/JN_React_Portfolio/static/media/jennifer_nelson_full_stack_resume.c746b6f4.pdf",
     "static/media/jnelprofilepic.8cbee452.jpg": "/JN_React_Portfolio/static/media/jnelprofilepic.8cbee452.jpg",
+    "static/media/jnelson_resume.7d10b719.pdf": "/JN_React_Portfolio/static/media/jnelson_resume.7d10b719.pdf",
     "static/media/Portfolio.css": "/JN_React_Portfolio/static/media/portBackgrnd.8cdca85e.jpeg"
   },
   "entrypoints": [
@@ -23,6 +24,6 @@
     "static/css/2.61b4cb56.chunk.css",
     "static/js/2.8803aced.chunk.js",
     "static/css/main.49d75041.chunk.css",
-    "static/js/main.40d6ec0f.chunk.js"
+    "static/js/main.daeabc11.chunk.js"
   ]
 }
