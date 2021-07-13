@@ -12,13 +12,21 @@
 
 
 
-  
+
+Screenshot of About Me/Landing page.
+  ![about me page](./assets/about_me.png)
+
+Mobile-responsive view of portfolio page, project modal and navigation.
+  ![portfolio](./assets/portfolio.gif)
+
+Contact sheet.
+  ![contact page](./assets/contact_sheet.png)
   
   ## Table of Contents
   
   - [Installation](#Installation)
   - [Usage](#Usage)
-  - [Credits](#Credits)
+  - [Technologies](#Technologies)
   - [Contributing](#Contributing)
   - [Questions](#Questions)
   - [License](#License)
@@ -26,21 +34,22 @@
   ## Installation
 
   ```bash
-  Clone repo and save to local file.
+  Clone repo and save in desired location.
   ```
 
   [Back to Table of Contents](#table-of-contents)
   
   ## Usage
 
-  After cloning and saving the repo, run npm i to install packages.
+  After cloning and saving the repo, run npm i to install packages locally.
 
   [Back to Table of Contents](#table-of-contents)
   
-  ## Credits
+  ## Technologies
+
+  This portfolio was created with React.js, React-bootstrap, React-pdf, Node.js, JavaScript, HTML, and CSS.  Design resources include unsplash and Bootstrap.
 
   
-
   [Back to Table of Contents](#table-of-contents)
   
   ## Contributing
